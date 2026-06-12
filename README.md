@@ -1,7 +1,7 @@
 > [!WARNING]
 > This project is based on the now-defunct [Create React App framework](https://github.com/facebook/create-react-app) and is woefully out of date, meaning vulnerable packages have not necessarily been updated. **_USE AT YOUR OWN RISK_**.
 
-# PHOSPHOR
+# Ypsilon 14 Terminal Emulator
 ### A retro terminal simulator for tabletop role-playing games
 
 [Click here to skip the preamble and jump straight to Getting Started](#getting-started).
@@ -11,7 +11,12 @@ The inspiration for this little app was [Quadra's post](https://www.traaa.sh/the
 
 Because of that (and because I was asked on [the Mothership Discord](https://discord.gg/uuvxG29)), I've made the JSON content that I used when I ran the module available in this repo. To use it, just load `ypsilon14.json` instead of `sample.json` at the top of `src/components/Phosphor/index.tsx` (line 22 as of this writing).
 
-Or you can skip doing it yourself and instead just check out [the Ypsilon 14 terminal in action](https://redhg.com/ypsilon14/).
+Or you can skip doing it yourself and instead just check out [the Ypsilon 14 terminal in action](https://andrewjknapp.github.io/ypsilon14/).
+
+## Differences from redhg Ypsilon 14 Terminal Emulator
+This version uses text input instead of mouse input to interact with the terminal
+
+To access Admin restricted options type INSERTKEYCARD while on the Controls screen
 
 ## An important note about this project
 
